@@ -1,0 +1,72 @@
+/* comment for CSS */
+#p1
+{
+	font-size:1.25em;
+	text-align: right;
+	text-shadow:2px 2px 8px #FF0000;
+	font-family:Consolas;
+}
+#p2
+{
+	font-size:10px;
+	text-align:right;
+	
+}
+h1
+{
+	font-style:bold;
+	text-align:center;
+	border:thick solid black;
+	border-radius:50px 50px 45px 45px;
+	font-size:1.5em;
+}
+
+hr
+{
+	border:3px inset red;
+}
+img
+{
+	box-shadow:10px 10px 15px red, -10px -10px 15px yellow,10px -10px 15px brown, -10px 10px 15px blue;
+}
+
+table, th, td
+{
+	border:3px solid navy;
+	border-collapse:collapse;
+	width="50%";
+	padding-left:5px;
+	padding-right:5px;
+	font-family:Courier New;
+}
+
+.th
+{
+	background-color:blue;
+	text-align:center;
+	font-style:bold;
+}
+
+.col1
+{
+	text-align:left;
+	background-color:red;
+}
+
+.col2
+{
+	text-align:right;
+	background-color:silver;
+}
+
+.col3
+{
+	text-align:center;
+	background-color:brown;
+}
+
+ul
+{
+	margin-left:125px;
+	list-style-image: url(../images/bullet.png);
+}
